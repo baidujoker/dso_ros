@@ -22,6 +22,7 @@ To access computed information in real-time, I recommend to implement your own O
 2. run 
 
 		export DSO_PATH=[PATH_TO_DSO]/dso
+		export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/joker
 		rosmake dso_ros
 	
 
